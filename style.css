@@ -199,6 +199,37 @@ a, a:hover, a:focus {
   margin-top: -3vh;
 }
 
+
+/*resume link*/
+
+.resumeandclick {
+  margin-top: 3vh;
+  display: inline;
+}
+
+.resumeandclick p {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 7vmin;
+  float: left;
+  margin-left: 23vw;
+}
+
+.resumeandclick img {
+  height: 3vh;
+  width: auto;
+  margin-left: 1vw;
+  margin-top: 8vw;
+  float: left;
+}
+
+.resume:hover {
+  color: #FF6600;
+
+}
+
+
+
+
 /*page 3*/
 .page3wrap {
   display: inline;
@@ -233,37 +264,37 @@ a, a:hover, a:focus {
 }
 
 .technical {
-  font-size: 5vmin;
-  padding-left: 2vw;
+  font-size: 5vw;
+  padding-left: 10vw;
   padding-top: 1vh;
   margin-top: 8vh;
   margin-bottom: 2vh;
-  text-align: left;
+  text-align: center;
   height: 4vh;
   background-color: #FF6600;
   color: white;
 }
 
 .management {
-  font-size: 5vmin;
-  padding-left: 2vw;
+  font-size: 5vw;
+  padding-left: 10vw;
   padding-top: 1vh;
   margin-top: 9vh;
   margin-bottom: 2vh;
-  text-align: left;
+  text-align: center;
   height: 4vh;
   background-color: #FF6600;
   color: white;
 }
 
 .life {
-  font-size: 5vmin;
-  padding-left: 2vw;
+  font-size: 5vw;
+  padding-left: 10vw;
   padding-right: 3vw;
   margin-top: 9vh;
   padding-top: 1vh;
   margin-bottom: 2vh;
-  text-align: left;
+  text-align: center;
   height: 4vh;
   background-color: #FF6600;
   color: white;
@@ -313,46 +344,6 @@ a, a:hover, a:focus {
   font-size: 3vmin;
   color: #050500;
 
-}
-
-/*resume link*/
-.resumeandclick a {
-  margin-left: 18vw;
-  margin-top: 35vh;
-  /*display: inline;*/
-}
-
-.resumeandclick {
-  height: 10vh;
-  /*background-color: #F22F08;*/
-  width: 100vw;
-  margin-top: 0;
-
-}
-
-.resume {
-  font-family: 'Julius Sans One', sans-serif;
-  color: #050500;
-  overflow: hidden;
-  display: inline;
-}
-
-.resume p {
-  float: left;
-  margin-left: 34vw;
-
-}
-
-.resume img {
- width: 5vw;
- height: 8vh;
- float: left;
- margin-left: 2vw;
-}
-
-
-.resume:hover {
-  color: #FF6600;
 }
 
 

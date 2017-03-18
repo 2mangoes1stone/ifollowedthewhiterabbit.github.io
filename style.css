@@ -112,19 +112,19 @@ a, a:hover, a:focus {
 /*page 2*/
 .page2wrap {
   display: inline;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   margin-bottom: 0;
 }
 
 .page2image {
   height:100vh;
   width: 100vw;
-  background: url(images/greg-rakozy-129733.jpg) no-repeat center center fixed;
+  background: url(images/vigi.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
-  opacity: 1.0;
+  opacity: 0.15;
   margin-bottom: 0;
   position: relative;
   z-index: -1;
@@ -183,15 +183,6 @@ a, a:hover, a:focus {
   width: 50%;
 }
 
-.vigiphoto {
-  /*display: none;*/
-  margin-top: -14vh;
-  width: 30%;
-  margin-left: -7vw;
-  opacity: 0.50;
-  /*z-index: -1;*/
-}
-
 .articlepage2 content h3 {
   margin-left: -1vw;
   margin-top: 15vh;
@@ -205,13 +196,57 @@ a, a:hover, a:focus {
   /*width: 80%;*/
   line-height: 1.5;
   font-size: 2.5vh;
-  margin-top: -3vh;
+  margin-top: -5vh;
+}
+
+/*resume link*/
+.resumeandclick a {
+  margin-left: 18vw;
+  margin-top: 26vh;
+  /*display: inline;*/
+}
+
+.resumeandclick {
+  height: 10vh;
+  /*background-color: #F22F08;*/
+  width: 100vw;
+  margin-top: 0;
+  text-align: center;
+
+}
+
+.resume {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 5vh;
+  color: #050500;
+  overflow: hidden;
+  display: inline;
+}
+
+.resume p {
+  float: left;
+  margin-left: 14vw;
+  margin-top: 5vh;
+
+}
+
+.resume img {
+ width: 5vw;
+ height: 8vh;
+ float: left;
+ margin-left: 2vw;
+ padding-top: 4vh;
+}
+
+
+.resume:hover {
+  color: #FF6600;
 }
 
 /*page 3*/
 .page3wrap {
   display: inline;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   margin-bottom: 0;
 }
 
@@ -324,51 +359,10 @@ a, a:hover, a:focus {
 
 }
 
-/*resume link*/
-.page3content a {
-  margin-left: 18vw;
-  margin-top: 35vh;
-  /*display: inline;*/
-}
-
-.resumeandclick {
-  height: 10vh;
-  /*background-color: #F22F08;*/
-  width: 100vw;
-  margin-top: 0;
-
-}
-
-.resume {
-  font-family: 'Julius Sans One', sans-serif;
-  color: #050500;
-  overflow: hidden;
-  display: inline;
-}
-
-.resume p {
-  float: left;
-  margin-left: 34vw;
-
-}
-
-.resume img {
- width: 5vw;
- height: 8vh;
- float: left;
- margin-left: 2vw;
-}
-
-
-.resume:hover {
-  color: #FF6600;
-}
-
-
 /*page 4*/
 .page4wrap {
     display: inline;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 0;
 }
 
@@ -396,7 +390,7 @@ a, a:hover, a:focus {
   margin-top: 10vh;;
   margin-left: 10%;
   margin-right: 10%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2.5vh;
   line-height: 1.5;
   text-align: center;

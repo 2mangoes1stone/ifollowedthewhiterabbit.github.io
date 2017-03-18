@@ -1,0 +1,451 @@
+@-ms-viewport {width: device-width;}
+
+body {margin: 0;
+      width: 100vw;
+      height: 100vh;}
+
+/*page1*/
+.page1{
+  height:100vh;
+  width: 100vw;
+  background: url(images/denys-nevozhai-185489.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  margin-bottom: 0;
+}
+
+
+.page1icons ul {
+  list-style-type: none;
+  margin-right: 0vw;
+  margin-top: 57vh;
+  position: fixed;
+  right: 5px;
+  line-height: 2;
+  z-index: 1;
+}
+
+.page1icons ul li {
+  line-height: 3;
+}
+
+/*sizing icons on page 1*/
+.page1iconsize {
+  overflow: hidden;
+  height: 3vh;
+  width: auto;
+}
+
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+.svg-wrapper {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 320px;
+  max-height:60px;
+  cursor:default;
+}
+
+/*commented properties for desktop*/
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: black;
+  border-bottom: 1px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.main-text {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.5rem;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: black;
+  top: -48px;
+  position: relative;
+  text-align:center;
+  text-decoration: none;
+}
+
+.description-text {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    /*top: 21%;*/
+    text-align: center;
+}
+
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+
+/*giving 100vh to page2,3,4 and 5- page1 already ahs this*/
+
+/*.page2wrap, .page3wrap
+.page4wrap, .page5wrap {
+  height:100vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+}*/
+
+/*codepe icon- making it stay in page when responsive*/
+#bottomicon {
+  margin-bottom: 2vh;
+}
+
+/*page 2*/
+.page2wrap {
+  display: inline;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 0;
+}
+
+.page2image {
+  height:100vh;
+  width: 100vw;
+  background: url(images/greg-rakozy-129733.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  opacity: 1.0;
+  margin-bottom: 0;
+  position: relative;
+  z-index: -1;
+}
+
+.page2content {
+  position: absolute;
+}
+
+/*make the navbar horizontal because JS fixed has width of 0*/
+#stickytypeheader {
+  width: 100%;
+  z-index: 1;
+  text-weight: bold;
+  background-color: white;
+  opacity: 0.98;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin-top: 1vh;
+  text-align: center;
+}
+
+.navbar ul li a {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #050500;
+  text-decoration: none;
+  float: left;
+  display: inline;
+  font-size: 2.5vh;
+  margin-left: -1vw;
+}
+
+.navbar a:link,
+.navbar a:visited {
+  display: inline-block;
+  padding: 3vmin;
+}
+
+.navbar a:hover
+ {
+  color: #FF6600;
+  margin-top: 0;
+
+}
+
+.articlepage2{
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.articlepage2 content {
+  text-align: center;
+  width: 50%;
+}
+
+.vigiphoto {
+  /*display: none;*/
+  margin-top: -14vh;
+  width: 30%;
+  margin-left: -7vw;
+  opacity: 0.50;
+  /*z-index: -1;*/
+}
+
+.articlepage2 content h3 {
+  margin-left: -1vw;
+  margin-top: 15vh;
+  font-size: 4vh;
+  margin-bottom: 1vh;
+  padding-bottom: 1vh;
+}
+
+.articlepage2 content p {
+  margin-left: -3vw;
+  /*width: 80%;*/
+  line-height: 1.5;
+  font-size: 2.5vh;
+  margin-top: -3vh;
+}
+
+/*page 3*/
+.page3wrap {
+  display: inline;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 0;
+}
+
+.page3image {
+  height:100vh;
+  width: 100vw;
+  background: url(images/william-iven-19843.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  opacity: 0.05;
+  margin-bottom: 0;
+  position: relative;
+  z-index: -1;
+}
+
+.page3content {
+    position: absolute;
+}
+
+
+/*dev skills*/
+.skillnames {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #050500;
+  display: inline;
+}
+
+.technical {
+  font-size: 5vmin;
+  padding-left: 2vw;
+  margin-top: 8vh;
+  margin-bottom: 2vh;
+  text-align: left;
+  height: 3vh;
+  background-color: #FF6600;
+  color: white;
+}
+
+.management {
+  font-size: 5vmin;
+  padding-left: 2vw;
+  margin-top: 9vh;
+  margin-bottom: 2vh;
+  text-align: left;
+  height: 3vh;
+  background-color: #FF6600;
+  color: white;
+}
+
+.life {
+  font-size: 5vmin;
+  padding-left: 2vw;
+  margin-top: 9vh;
+  margin-bottom: 2vh;
+  text-align: left;
+  height: 3vh;
+  background-color: #FF6600;
+  color: white;
+}
+
+.line1 {
+  margin-top: 0vh;
+  float: left;
+  margin-left: 8vw;
+  margin-right: -2vw;
+  font-size: 3vmin;
+  color: #050500;
+}
+
+.line2 {
+  float: left;
+  margin-top: 0vh;
+  margin-left: 8vw;
+  margin-right: 5vw;
+  font-size: 3vmin;
+  color: #050500;
+}
+
+.line3 {
+  float: left;
+  margin-top: 0;
+  margin-left: 8vw;
+  margin-right: 3vw;
+  font-size: 3vmin;
+  color: #050500;
+}
+
+.line4 {
+  float: left;
+  margin-top: 0;
+  margin-left: 8vw;
+  margin-right: 3vw;
+  font-size: 3vmin;
+  color: #050500;
+}
+
+.line5 {
+  float: left;
+  margin-top: 0;
+  margin-left: 8vw;
+  margin-right: -3vw;
+  font-size: 3vmin;
+  color: #050500;
+
+}
+
+/*resume link*/
+.page3content a {
+  margin-left: 18vw;
+  margin-top: 35vh;
+  /*display: inline;*/
+}
+
+.resumeandclick {
+  height: 10vh;
+  /*background-color: #F22F08;*/
+  width: 100vw;
+  margin-top: 0;
+
+}
+
+.resume {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #050500;
+  overflow: hidden;
+  display: inline;
+}
+
+.resume p {
+  float: left;
+  margin-left: 34vw;
+
+}
+
+.resume img {
+ width: 5vw;
+ height: 8vh;
+ float: left;
+ margin-left: 2vw;
+}
+
+
+.resume:hover {
+  color: #FF6600;
+}
+
+
+/*page 4*/
+.page4wrap {
+    display: inline;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+.page4image {
+  height:100vh;
+  width: 100vw;
+  /*background: url(images/mitchell-hollander-205952.jpg) no-repeat center center fixed;*/
+  background-color: white;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  opacity: 0.15;
+  margin-bottom: 0;
+  position: relative;
+  z-index: -1;
+}
+
+.page4content {
+    position: absolute;
+    /*top: 4rem;*/
+}
+
+.page4p {
+  margin-top: 10vh;;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.5vh;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+
+.chocolatree {
+  width: 60%;
+  height: auto;
+  margin-left: 8vw;
+  margin-right: 4vw;
+  margin-top: 3vh;
+}
+
+.coffylosophy {
+  width: 60%;
+  height: auto;
+  margin-left: 8vw;
+  margin-right: 4vw;
+  margin-top: 5vh;
+}
+
+.chocolatreeandclick {
+  display: inline;
+}
+
+.coffylosophyandclick {
+  display: inline;
+}
+
+.click1 {
+  height: 3vh;
+}
+
+.click2 {
+ height: 3vh;
+ margin-top: 1vh;
+ margin-bottom: 4vh;
+ width: 8vw;
+}
+
+/*page 5*/
+.page5image {
+  height:100vh;
+  width: 100vw;
+  background: url(images/pavan-trikutam-1660.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  opacity: 0.15;
+  margin-bottom: 0;
+  position: relative;
+  z-index: -1;
+}

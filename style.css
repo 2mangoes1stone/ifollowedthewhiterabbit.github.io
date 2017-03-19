@@ -199,12 +199,20 @@ a, a:hover, a:focus {
   margin-top: -3vh;
 }
 
+.coderfa
 
 /*resume link*/
-
 .resumeandclick {
   margin-top: 3vh;
   display: inline;
+}
+
+.resumeandclick a {
+  color: #050500;
+}
+
+.resume:hover {
+  color: #FF6600;
 }
 
 .resumeandclick p {
@@ -221,14 +229,6 @@ a, a:hover, a:focus {
   margin-top: 8vw;
   float: left;
 }
-
-.resume:hover {
-  color: #FF6600;
-
-}
-
-
-
 
 /*page 3*/
 .page3wrap {
@@ -387,17 +387,17 @@ a, a:hover, a:focus {
 /*sds*/
 
 .chocolatree {
-  width: 60%;
+  width: 60vw;
   height: auto;
-  margin-left: 8vw;
+  margin-left: 14vw;
   margin-right: 4vw;
   margin-top: 3vh;
 }
 
 .coffylosophy {
-  width: 60%;
+  width: 60vw;
   height: auto;
-  margin-left: 8vw;
+  margin-left: 14vw;
   margin-right: 4vw;
   margin-top: 5vh;
 }
@@ -483,4 +483,13 @@ a, a:hover, a:focus {
   border: .5vmin solid #FF6600;
   background-color: #FF6600;
   color: white;
+}
+
+.favicon {
+  text-align: center;
+  margin-top: 24vh;
+}
+
+.favicon img{
+  height: 3vh;
 }

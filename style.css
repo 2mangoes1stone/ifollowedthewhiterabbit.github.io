@@ -6,14 +6,22 @@ body {margin: 0;
 
 /*page1*/
 .page1{
-  height:100vh;
+  /*height:100vh;
   width: 100vw;
   background: url(images/denys-nevozhai-185489.jpg) no-repeat center center fixed;
-  background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
-  margin-bottom: 0;
+  background-size: cover;
+  margin-bottom: 0;*/
+  background: url('images/denys-nevozhai-185489.jpg') center center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-position: contain;
+  height: 100vh;
+  margin-bottom:
 }
 
 
@@ -92,18 +100,6 @@ a, a:hover, a:focus {
   stroke-dasharray: 760;
 }
 
-
-/*giving 100vh to page2,3,4 and 5- page1 already ahs this*/
-
-/*.page2wrap, .page3wrap
-.page4wrap, .page5wrap {
-  height:100vh;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-}*/
-
 /*codepe icon- making it stay in page when responsive*/
 #bottomicon {
   margin-bottom: 2vh;
@@ -117,14 +113,23 @@ a, a:hover, a:focus {
 }
 
 .page2image {
-  height:100vh;
+  /*height:100vh;
   width: 100vw;
   background: url(images/vigi.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -moz-background-size: cover;
-  opacity: 0.15;
+  -moz-background-size: cover;*/
+  background: url('images/vigi.jpg') center center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-position: contain;
+  height: 100vh;
+  width: auto;
+  margin-bottom: 0;
+  /*opacity: 0.15;*/
   margin-bottom: 0;
   position: relative;
   z-index: -1;
@@ -241,14 +246,20 @@ a, a:hover, a:focus {
 }
 
 .page3image {
-  height:100vh;
+  /*height:100vh;
   width: 100vw;
   background: url(images/william-iven-19843.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -moz-background-size: cover;
-  opacity: 0.05;
+  -moz-background-size: cover;*/
+  background: url('images/william-iven-19843.jpg') center center no-repeat;
+  background-size: 100% 100%;
+  background-position: contain;
+  height: 100vh;
+  width: auto;
+  margin-bottom: 0;
+  opacity: 0.15;
   margin-bottom: 0;
   position: relative;
   z-index: -1;

@@ -346,9 +346,46 @@ a, a:hover, a:focus {
   margin-right: -3vw;
   font-size: 3vmin;
   color: #050500;
-
 }
 
+.page3content h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #FF6600;
+  text-align: center;
+  margin-top: 9vh;
+  margin-bottom: 0;
+}
+
+.projects {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  height: 44vh;
+  width: 60vw;
+  background-color: lightblue;
+}
+
+.projects p {
+  font-size: 2vh;
+  text-align: center;
+}
+
+.line {
+  color: #FF6600;
+  margin-top: -1vh;
+  margin-bottom: -1vh;
+}
+
+.loyaltycard {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  height: 35%;
+  width: 65%;
+  background-color: red;
+}
 
 /*page 4*/
 .page4wrap {

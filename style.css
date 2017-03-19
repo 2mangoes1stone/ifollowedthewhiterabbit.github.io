@@ -119,7 +119,7 @@ a, a:hover, a:focus {
 .page2image {
   height:100vh;
   width: 100vw;
-  background: url(vigi.jpg) no-repeat center center fixed;
+  background: url(images/vigi.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -397,7 +397,7 @@ a, a:hover, a:focus {
 .page4image {
   height:100vh;
   width: 100vw;
-  background: url(dowork.jpg) no-repeat center center fixed;
+  background: url(images/dowork.jpg) no-repeat center center fixed;
   background-color: white;
   background-size: cover;
   -webkit-background-size: cover;

@@ -122,13 +122,30 @@
       <!--page5-->
       <div class="page5wrap">
         <div class="page5content">
+          <p>I can easily be reached for a chat over the phone or even happy catch up for a coffee(or two).<br><br>My number is 0431 602 005 or feel free to drop in a message</p> 
+        
+          <form id="contactform" action="//formspree.io/your@email.com" method="POST">
+            <input id="name" type="text" name="name" placeholder="Your name"><br>
+            <input id="email" type="email" name="_replyto" placeholder="Your email"><br>
+            <textarea id="message" name="message" placeholder="Your message"></textarea><br>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input id="send" type="submit" value="Send">
+            <input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
+          </form>
+          <script>
+            var contactform =  document.getElementById('contactform');
+            contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+          </script>
         </div>
         <div class="page5image" id="contact">
         </div>
       </div>
+
     <script src="scriptfile.min.js"></script>
     <scrpt src="jquery-latest.min.js"></script>
     </body>
+
+    <!--for smooth scroll-->
     <script>
       $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -143,6 +160,8 @@
           }
         });
     </script>
+
+    <!--for place holder lock-->
     <script>
       $(function(){
           var stickyHeaderTop = $('#stickytypeheader').offset().top;
@@ -157,6 +176,7 @@
                   }
           });
       });
-</script>
+  </script>
+
     
 </html>

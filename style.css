@@ -357,7 +357,7 @@ a, a:hover, a:focus {
 .page4image {
   height:100vh;
   width: 100vw;
-  /*background: url(images/mitchell-hollander-205952.jpg) no-repeat center center fixed;*/
+  background: url(images/dowork.jpg) no-repeat center center fixed;
   background-color: white;
   background-size: cover;
   -webkit-background-size: cover;
@@ -422,6 +422,13 @@ a, a:hover, a:focus {
 }
 
 /*page 5*/
+
+.page5wrap {
+    display: inline;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 0;
+}
+
 .page5image {
   height:100vh;
   width: 100vw;
@@ -434,4 +441,46 @@ a, a:hover, a:focus {
   margin-bottom: 0;
   position: relative;
   z-index: -1;
+}
+
+.page5content {
+    position: absolute;
+    /*top: 4rem;*/
+}
+
+.page5content p {
+  margin-top: 15vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+#contactform {
+  width: 100vw;
+  margin-top: 5vh;
+  text-align: center;
+}
+
+#name {
+  margin-bottom: 3vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#email {
+  margin-bottom: 3vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#message {
+  margin-bottom: 3vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 10vh;
+  width: 40vw;
+}
+
+#send {
+  font-family: 'Open Sans Condensed', sans-serif;
+  border: .5vmin solid #FF6600;
+  background-color: #FF6600;
+  color: white;
 }

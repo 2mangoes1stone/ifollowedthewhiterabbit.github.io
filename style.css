@@ -363,7 +363,6 @@ a, a:hover, a:focus {
   margin-right: 20vw;
   height: 44vh;
   width: 60vw;
-  background-color: lightblue;
 }
 
 .projects p {
@@ -373,18 +372,46 @@ a, a:hover, a:focus {
 
 .line {
   color: #FF6600;
-  margin-top: -1vh;
+  margin-top: -2vh;
   margin-bottom: -1vh;
 }
 
 .loyaltycard {
+  display: inline;
+}
+
+.imgloyalty {
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 1vh;
+  margin-top: 0;
   margin-bottom: 1vh;
-  height: 28%;
-  width: 65%;
-  background-color: red;
+  height: 15vh;
+  width: auto;
+}
+
+.clicka {
+  height: 3vh;
+  margin-left: -9vw;
+  margin-bottom: 7vh;
+}
+
+.stuckinspace {
+  display: inline;
+}
+
+.imgspace {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 0;
+  margin-bottom: 1vh;
+  height: 15vh;
+  width: auto;
+}
+
+.clickb {
+  height: 3vh;
+  margin-left: -9vw;
+  margin-bottom: 7vh;
 }
 
 /*page 4*/
@@ -458,7 +485,6 @@ a, a:hover, a:focus {
  height: 3vh;
  margin-top: 1vh;
  margin-bottom: 4vh;
- width: 8vw;
 }
 
 /*page 5*/
@@ -489,6 +515,8 @@ a, a:hover, a:focus {
 }
 
 .page5content p {
+  font-size: 3vh;
+  line-height: 1.5;
   margin-top: 15vh;
   margin-left: 10%;
   margin-right: 10%;
@@ -527,7 +555,7 @@ a, a:hover, a:focus {
 
 .favicon {
   text-align: center;
-  margin-top: 24vh;
+  margin-top: 2vh;
 }
 
 .favicon img{

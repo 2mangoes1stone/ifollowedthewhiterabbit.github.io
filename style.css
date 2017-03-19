@@ -199,7 +199,10 @@ a, a:hover, a:focus {
   margin-top: -3vh;
 }
 
-.coderfa
+.coderfactoryacademy a {
+  color: #FF6600;
+  text-decoration: underline;
+}
 
 /*resume link*/
 .resumeandclick {

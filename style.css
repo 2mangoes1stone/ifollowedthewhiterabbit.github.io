@@ -520,11 +520,13 @@ a, a:hover, a:focus {
 #name {
   margin-bottom: 3vh;
   font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 0;
 }
 
 #email {
   margin-bottom: 3vh;
   font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 0;
 }
 
 #message {
@@ -532,6 +534,7 @@ a, a:hover, a:focus {
   font-family: 'Open Sans Condensed', sans-serif;
   height: 10vh;
   width: 40vw;
+  border-radius: 0;
 }
 
 #send {
@@ -539,6 +542,7 @@ a, a:hover, a:focus {
   border: .5vmin solid #FF6600;
   background-color: #FF6600;
   color: white;
+  border-radius: 0;
 }
 
 .favicon {

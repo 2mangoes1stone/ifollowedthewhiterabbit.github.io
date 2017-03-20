@@ -6,17 +6,13 @@ body {margin: 0;
 
 /*page1*/
 .page1{
-  /*height:100vh;
+  height:100vh;
   width: 100vw;
-  background: url(images/denys-nevozhai-185489.jpg) no-repeat center center fixed;
+  background: url(images/denys-nevozhai-185489.jpg) no-repeat center center;
+  background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
-  margin-bottom: 0;*/
-  background: url('images/denys-nevozhai-185489.jpg') center center no-repeat;
-  background-size: cover;
-  background-position: contain;
   height: 100vh;
   margin-bottom: 0;
 }
@@ -110,20 +106,16 @@ a, a:hover, a:focus {
 }
 
 .page2image {
-  /*height:100vh;
+  height:100vh;
   width: 100vw;
-  background: url(images/vigi.jpg) no-repeat center center fixed;
+  background: url(images/vigi.jpg) no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -moz-background-size: cover;*/
-  background: url('images/vigi.jpg') center center no-repeat;
-  background-size: cover;
-  background-position: contain;
+  -moz-background-size: cover;
   height: 100vh;
   margin-bottom: 0;
   opacity: 0.15;
-  margin-bottom: 0;
   position: relative;
   z-index: -1;
 }
@@ -239,20 +231,16 @@ a, a:hover, a:focus {
 }
 
 .page3image {
-  /*height:100vh;
+  height:100vh;
   width: 100vw;
-  background: url(images/william-iven-19843.jpg) no-repeat center center fixed;
+  background: url(images/william-iven-19843.jpg) no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -moz-background-size: cover;*/
-  background: url('images/william-iven-19843.jpg') center center no-repeat;
-  background-size: cover;
-  background-position: contain;
+  -moz-background-size: cover;
   height: 100vh;
   margin-bottom: 0;
   opacity: 0.15;
-  margin-bottom: 0;
   position: relative;
   z-index: -1;
 }
@@ -425,18 +413,14 @@ a, a:hover, a:focus {
 }
 
 .page4image {
-  /*height:100vh;
+  height:100vh;
   width: 100vw;
-  background: url(images/dowork.jpg) no-repeat center center fixed;
+  background: url(images/dowork.jpg) no-repeat center center;
   background-color: white;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -moz-background-size: cover;*/
-  background: url('images/dowork.jpg') center center no-repeat;
-  background-size: cover;
-  background-position: contain;
-  height: 100vh;
+  -moz-background-size: cover;
   opacity: 0.15;
   margin-bottom: 0;
   position: relative;
@@ -503,18 +487,13 @@ a, a:hover, a:focus {
 }
 
 .page5image {
-  /*height:100vh;
+  height:100vh;
   width: 100vw;
-  background: url(images/pavan-trikutam-1660.jpg) no-repeat center center fixed;
+  background: url(images/pavan-trikutam-1660.jpg) no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -moz-background-size: cover;*/
-  background: url('images/pavan-trikutam-1660.jpg') center center no-repeat;
-  background-size: cover;
-  background-position: contain;
-  height: 100vh;
-  opacity: 0.15;
+  -moz-background-size: cover;
   opacity: 0.15;
   margin-bottom: 0;
   position: relative;

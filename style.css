@@ -259,8 +259,7 @@ a, a:hover, a:focus {
 }
 
 .technical {
-  font-size: 5vw;
-  padding-top: 1vh;
+  font-size: 3vw;
   margin-top: 8vh;
   margin-bottom: 2vh;
   text-align: center;
@@ -269,9 +268,8 @@ a, a:hover, a:focus {
 }
 
 .management {
-  font-size: 5vw;
-  padding-top: 1vh;
-  margin-top: 9vh;
+  font-size: 3vw;
+  margin-top: 10vh;
   margin-bottom: 2vh;
   text-align: center;
   background-color: #FF6600;
@@ -279,10 +277,9 @@ a, a:hover, a:focus {
 }
 
 .life {
-  font-size: 5vw;
+  font-size: 3vw;
   padding-right: 3vw;
-  margin-top: 9vh;
-  padding-top: 1vh;
+  margin-top: 11vh;
   margin-bottom: 2vh;
   text-align: center;
   background-color: #FF6600;
@@ -555,7 +552,7 @@ a, a:hover, a:focus {
 /*tablet - greater than 768 px*/
 
 @media screen and (min-width: 768px) {
-
+  
   .main-text {
     font-size: 3.5rem;
   }
@@ -564,14 +561,161 @@ a, a:hover, a:focus {
     font-size: 0.8rem;
   }
   
-  .page1icons ul li {}
+  .page1icons ul li {
+    line-height: 5;
+  }
 
+  .resumeandclick p {
+    margin-left: 27vw;
+  }
+
+  .technical {
+    font-size: 3vh;
+  }
+
+  .management {
+    margin-top: 15vh;
+    font-size: 3vh;
+  }
   
+  .life {
+    margin-top: 15vh;
+    font-size: 3vh;
+  }
+
+  .page3content h3 {
+    margin-top: 7vh;
+  }
+
+  .imgloyalty {
+    margin-left: 16vw;
+  }
+
+  .imgspace {
+    margin-left: 16vw;
+  }
+
+  .chocolatree {
+    margin-left: 18vw;
+  }
   
+  .coffylosophy {
+    margin-left: 18vw;
+  }
 }
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
+  .shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: black;
+  }
 
+  
+  .page1icons ul li {
+    line-height: 3;
+  }
 
+  .articlepage2 content p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: 3vh;
+  }
+
+  .resumeandclick p {
+    margin-left: 36vw;
+  }
+
+  .resumeandclick img {
+    margin-top: 6vw;
+  }
+
+  .technical {
+    font-size: 3vw;
+    font-size: 1.5vw;
+    width: 80%;
+    margin-top: 11vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .management {
+    font-size: 1.5vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+  }
+  
+  .life {
+    font-size: 1.5vw;
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11vh
+  }
+
+  .page3content h3 {
+    margin-top: 10vh;
+    font-size: 3vw;
+  }
+
+  .line1 {
+    margin-right: 2vw;
+    margin-left: 12vw;
+    font-size: 2vmin;
+  }
+
+  .line2 {
+    margin-left: 17vw;
+    margin-right: 6vw;
+    font-size: 2vmin;
+  }
+
+  .line3 {
+    margin-left: 18vw;
+    margin-right: 3vw;
+    font-size: 2vmin;
+  } 
+
+  .line4 {
+    margin-left: 24vw;
+    font-size: 2vmin;
+  }
+
+  .line5 {
+    margin-left: 22vw;
+    font-size: 2vmin;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .projects {
+    display: inline-block;
+  }
+
+  .imgloyalty {
+    width: 30vw;
+    height: auto;
+    float: left;
+  }
+
+  .imgspace {
+    width: 30vw;
+    height: auto;
+    float: right;
+  }
+
+  .chocolatree {
+    margin-left: 18vw;
+  }
+  
+  .coffylosophy {
+    margin-left: 18vw;
+  }
 }

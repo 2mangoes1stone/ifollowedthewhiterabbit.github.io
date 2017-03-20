@@ -21,7 +21,7 @@ body {margin: 0;
 .page1icons ul {
   list-style-type: none;
   margin-right: 0vw;
-  margin-top: 57vh;
+  margin-top: 55vh;
   position: fixed;
   right: 5px;
   line-height: 2;
@@ -56,11 +56,11 @@ a, a:hover, a:focus {
 
 /*commented properties for desktop*/
 .shape {
-  stroke-dasharray: 140 540;
+  /*stroke-dasharray: 140 540;
   stroke-dashoffset: -474;
-  stroke-width: 8px;
+  stroke-width: 8px;*/
   fill: transparent;
-  stroke: black;
+  /*stroke: black;*/
   border-bottom: 1px solid black;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
@@ -264,7 +264,6 @@ a, a:hover, a:focus {
   margin-top: 8vh;
   margin-bottom: 2vh;
   text-align: center;
-  height: 4vh;
   background-color: #FF6600;
   color: white;
 }
@@ -276,7 +275,6 @@ a, a:hover, a:focus {
   margin-top: 9vh;
   margin-bottom: 2vh;
   text-align: center;
-  height: 4vh;
   background-color: #FF6600;
   color: white;
 }
@@ -289,7 +287,6 @@ a, a:hover, a:focus {
   padding-top: 1vh;
   margin-bottom: 2vh;
   text-align: center;
-  height: 4vh;
   background-color: #FF6600;
   color: white;
 }
@@ -373,7 +370,6 @@ a, a:hover, a:focus {
 
 .imgloyalty {
   margin-left: 10vw;
-  margin-right: 10vw;
   margin-top: 0;
   margin-bottom: 1vh;
   height: 15vh;
@@ -392,7 +388,6 @@ a, a:hover, a:focus {
 
 .imgspace {
   margin-left: 10vw;
-  margin-right: 10vw;
   margin-top: 0;
   margin-bottom: 1vh;
   height: 15vh;
@@ -470,12 +465,14 @@ a, a:hover, a:focus {
 
 .click1 {
   height: 3vh;
+  margin-left: -3vw;
 }
 
 .click2 {
  height: 3vh;
+ margin-left: -3vw;
  margin-top: 1vh;
- margin-bottom: 4vh;
+ margin-bottom: 5vh;
 }
 
 /*page 5*/

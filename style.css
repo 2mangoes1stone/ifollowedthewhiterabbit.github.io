@@ -13,7 +13,6 @@ body {margin: 0;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
-  height: 100vh;
   margin-bottom: 0;
 }
 
@@ -552,4 +551,16 @@ a, a:hover, a:focus {
 
 .favicon img{
   height: 3vh;
+}
+
+/*tablet - greater than 768 px*/
+
+@media screen and (min-width: 768px) {
+  
+}
+
+
+@media screen and (min-width: 1440px) {
+
+
 }

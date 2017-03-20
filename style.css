@@ -63,6 +63,7 @@ a, a:hover, a:focus {
   border-bottom: 1px solid black;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
+
 .main-text {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 1.5rem;
@@ -254,11 +255,11 @@ a, a:hover, a:focus {
   font-family: 'Julius Sans One', sans-serif;
   color: #050500;
   display: inline;
+  width: 100%;
 }
 
 .technical {
   font-size: 5vw;
-  padding-left: 10vw;
   padding-top: 1vh;
   margin-top: 8vh;
   margin-bottom: 2vh;
@@ -269,7 +270,6 @@ a, a:hover, a:focus {
 
 .management {
   font-size: 5vw;
-  padding-left: 10vw;
   padding-top: 1vh;
   margin-top: 9vh;
   margin-bottom: 2vh;
@@ -280,7 +280,6 @@ a, a:hover, a:focus {
 
 .life {
   font-size: 5vw;
-  padding-left: 10vw;
   padding-right: 3vw;
   margin-top: 9vh;
   padding-top: 1vh;
@@ -556,6 +555,18 @@ a, a:hover, a:focus {
 /*tablet - greater than 768 px*/
 
 @media screen and (min-width: 768px) {
+
+  .main-text {
+    font-size: 3.5rem;
+  }
+
+  .description-text {
+    font-size: 0.8rem;
+  }
+  
+  .page1icons ul li {}
+
+  
   
 }
 

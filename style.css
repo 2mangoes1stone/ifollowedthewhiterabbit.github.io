@@ -569,6 +569,10 @@ a, a:hover, a:focus {
     line-height: 5;
   }
 
+
+  .page2image {
+    background: url(images/vigi.jpg) no-repeat center center fixed;
+  }
   .resumeandclick p {
     margin-left: 27vw;
   }
@@ -587,8 +591,16 @@ a, a:hover, a:focus {
     font-size: 3vh;
   }
 
+  .page3image {
+    background: url(images/william-iven-19843.jpg) no-repeat center center fixed;
+  }
+
   .page3content h3 {
     margin-top: 7vh;
+  }
+
+  .page4image {
+    background: url(images/dowork.jpg) no-repeat center center fixed;
   }
 
   .imgloyalty {
@@ -605,6 +617,10 @@ a, a:hover, a:focus {
   
   .coffylosophy {
     margin-left: 18vw;
+  }
+
+  .page5image {
+    background: url(images/pavan-trikutam-1660.jpg) no-repeat center center fixed;
   }
 }
 

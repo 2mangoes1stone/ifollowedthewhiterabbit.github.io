@@ -552,15 +552,17 @@ a, a:hover, a:focus {
 
 @media screen and (min-width: 768px) {
 
+/*page1*/
   .page1icons ul li {
     line-height: 5;
   }
-
+/*page2*/
   .resumeandclick p {
     margin-left: 27vw;
   }
 
   .technical {
+    margin-top: 9vh;
     font-size: 3vh;
   }
 
@@ -574,18 +576,38 @@ a, a:hover, a:focus {
     font-size: 3vh;
   }
 
+/*page3*/
   .page3content h3 {
-    margin-top: 7vh;
+    margin-top: 12vh;
+    font-size: 3vh;
+    margin-left: -3vw;
+  }
+
+  .projects {
+    width: 80%;
+    height: 30vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .loyaltycard {
+    float: left;
+    width: 50%;
   }
 
   .imgloyalty {
-    margin-left: 16vw;
+    margin-left: 6vw;
   }
 
   .imgspace {
-    margin-left: 16vw;
+    margin-left: 5vw;
   }
 
+  .line {
+    display: none;
+  }
+/*page4*/
   .chocolatree {
     margin-left: 18vw;
   }

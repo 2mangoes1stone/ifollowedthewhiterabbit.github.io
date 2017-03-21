@@ -144,7 +144,7 @@ a, a:hover, a:focus {
   text-decoration: none;
   float: left;
   display: inline;
-  font-size: 2.5vh;
+  font-size: 0.9rem;
   margin-left: -1vw;
 }
 
@@ -173,19 +173,18 @@ a, a:hover, a:focus {
 }
 
 .articlepage2 content h3 {
-  margin-left: -1vw;
-  margin-top: 15vh;
-  font-size: 4vh;
-  margin-bottom: 1vh;
-  padding-bottom: 1vh;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  padding-bottom: 1%;
 }
 
 .articlepage2 content p {
-  margin-left: -3vw;
-  /*width: 80%;*/
+  text-align: center;
   line-height: 1.5;
-  font-size: 2.5vh;
-  margin-top: -3vh;
+  font-size: 1.212rem;
+  margin-top: -8%;
 }
 
 .coderfactoryacademy a {
@@ -209,17 +208,16 @@ a, a:hover, a:focus {
 
 .resumeandclick p {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 7vmin;
-  float: left;
-  margin-left: 26vw;
+  font-size: 2.2rem;
+  text-align: center;
 }
 
 .resumeandclick img {
-  height: 3vh;
-  width: auto;
-  margin-left: 1vw;
-  margin-top: 8vw;
-  float: left;
+  /*height: 3vh;
+  margin-right: 25%;
+  margin-top: -14%;
+  float: right;*/
+  display: none;
 }
 
 /*page 3*/
@@ -258,33 +256,37 @@ a, a:hover, a:focus {
 }
 
 .technical {
-  font-size: 4vmin;
+  font-size: 2.5vmax;
   height: 1.2em;
-  margin-top: 15%;
+  margin-top: 53px;
   text-align: center;
   background-color: #FF6600;
   color: white;
 }
 
 .management {
-  font-size: 4vmin;
+  font-size: 2.5vmax;
   height: 1.2em;
-  margin-top: 17%;
-  margin-bottom: 2vh;
+  margin-top: 66px;
+  margin-bottom: 2%;
   text-align: center;
   background-color: #FF6600;
   color: white;
 }
 
 .life {
-  font-size: 4vmin;
+  font-size: 2.5vmax;
   height: 1.2em;
-  padding-right: 3vw;
-  margin-top: 17%;
-  margin-bottom: 2vh;
+  padding-right: 3%;
+  margin-top: 67px;
+  margin-bottom: 2%;
   text-align: center;
   background-color: #FF6600;
   color: white;
+}
+
+.line {
+  display: none;
 }
 
 .line1 {
@@ -336,20 +338,30 @@ a, a:hover, a:focus {
   font-family: 'Julius Sans One', sans-serif;
   color: #FF6600;
   text-align: center;
-  margin-top: 12%;
+  margin-top: 8%;
   margin-bottom: 0;
 }
 
 .projects {
   margin-left: auto;
   margin-right: 20%;
-  height: 44vh;
-  width: 60vw;
+  height: 49vh;
+  width: 100vw;
 }
 
 .projects p {
-  font-size: 3.6vmin;
+  font-size: 1.1rem;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.loyaltycard p {
   text-align: center;
+}
+
+.stuckinspace p {
+  text-align: center;
+  margin-top: 18px;
 }
 
 .line {
@@ -363,9 +375,11 @@ a, a:hover, a:focus {
 }
 
 .imgloyalty {
-  margin-left: 23%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   margin-top: 0;
-  margin-bottom: 1vh;
+  margin-bottom: -2vh;
   height: 15vh;
   width: auto;
 }
@@ -376,7 +390,9 @@ a, a:hover, a:focus {
 }
 
 .imgspace {
-  margin-left: 23%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   margin-top: 0;
   margin-bottom: 1vh;
   height: 15vh;
@@ -411,19 +427,19 @@ a, a:hover, a:focus {
 
 .page4content h2 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 3vh;
+  font-size: 1.4rem;
   color: #FF6600;
   text-align: center;
-  margin-top: 9vh;
+  margin-top: 62px;
   margin-bottom: 0;
 }
 
 .page4p {
-  margin-top: 5vh;;
+  margin-top: 9%;
   margin-left: 10%;
   margin-right: 10%;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 3vh;
+  font-size: 1.2rem;
   line-height: 1.5;
   text-align: center;
 }
@@ -493,10 +509,19 @@ a, a:hover, a:focus {
     /*top: 4rem;*/
 }
 
+.page5content h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 4vmax;
+  color: #FF6600;
+  text-align: center;
+  margin-top: 53px;
+  margin-bottom: 0;
+}
+
 .page5content p {
-  font-size: 3vh;
+  font-size: 3vmax;
   line-height: 1.5;
-  margin-top: 15vh;
+  margin-top: 9%;
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
@@ -509,20 +534,27 @@ a, a:hover, a:focus {
 }
 
 #name {
-  margin-bottom: 3vh;
+  margin-bottom: 7%;
   font-family: 'Open Sans Condensed', sans-serif;
   border-radius: 0;
+  height: 3vh;
+  width: 40vw;
+  font-size: 2.5vh;
 }
 
 #email {
-  margin-bottom: 3vh;
+  margin-bottom: 7%;
   font-family: 'Open Sans Condensed', sans-serif;
   border-radius: 0;
+  height: 3vh;
+  width: 40vw;
+  font-size: 2.5vh;
 }
 
 #message {
-  margin-bottom: 3vh;
+  margin-bottom: 7%;
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4vh;
   height: 10vh;
   width: 40vw;
   border-radius: 0;
@@ -534,6 +566,7 @@ a, a:hover, a:focus {
   background-color: #FF6600;
   color: white;
   border-radius: 0;
+  font-size: 2vh;
 }
 
 .favicon {
@@ -550,35 +583,34 @@ a, a:hover, a:focus {
 @media screen and (min-width: 450px) {
 
 /*page1*/
-  .page1icons ul li {
-    line-height: 5;
-  }
+  
 /*page2*/
 
-  .articlepage2 content p {
-    font-size: 3.5vmin;
+  .articlepage2 content h3 {
+    margin-top: 80px;
   }
 
-  .resumeandclick p {
-    margin-left: 27vw;
+  .articlepage2 content p {
+    font-size: 1.3rem;
   }
+
+/*page3*/
 
   .technical {
-    margin-top: 9vh;
+    margin-top: 90px;
     font-size: 3vh;
   }
 
   .management {
-    margin-top: 15vh;
+    margin-top: 79px;
     font-size: 3vh;
   }
   
   .life {
-    margin-top: 15vh;
+    margin-top: 78px;
     font-size: 3vh;
   }
 
-/*page3*/
   .page3content h3 {
     margin-top: 12vh;
     font-size: 3vh;
@@ -595,6 +627,8 @@ a, a:hover, a:focus {
 
   .projects p {
    margin-bottom: 1vh;
+   margin-left: -2%;
+   margin-top: 0;
   }
 
   .loyaltycard {
@@ -606,151 +640,263 @@ a, a:hover, a:focus {
     margin-left: -2%;
  }
   .imgloyalty {
-    margin-left: 1%;
-    height: 19vh;
-    width: 35vw;
+    margin-left: 9%;
+    height: 24%;
+    width: 80%;
+  }
+
+  .stuckinspace {
+    display: block;
   }
 
   .imgspace {
-    margin-left: 5vw;
-    height: 19vh;
-    width: 35vw;
+    height: 49%;
+    width: 40%;
   }
 
   .line {
     display: none;
   }
+
+  .line1, .line2, .line3,
+  .line4, .line5 {
+    font-size: 0.9rem;
+    margin-left: 10%
+  }
+
+  .mongodb {
+    margin-left: 6%;
+  }
+
+  /*.angularjs {
+    margin-left: 6%;
+  }
+
+  .leadership {
+    margin-left: 12%; 
+  }*/
+  /*.line1 { 
+    margin-left: 10%
+  }
+
+  .line2 {
+    margin-left: 11%;
+    margin-right: 4%;
+  }
+
+  .line3 {
+    margin-left: 11%;
+  }
+
+  .line4 {
+    margin-left: 13%;
+  }
+
+  .line5 {
+    margin-left: 11%;
+  }*/
+
+
 /*page4*/
 
   .page4p {
-    font-size: 3.5vmin;
+    font-size: 1.5rem;
   }
 
+  .page4content h2 {
+    margin-top: 90px;
+  }
+
+  .page4content p {
+    margin-top: 42px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
   .chocolatree {
-    width: 40%;
-    margin-left: 30%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   
   .coffylosophy {
-    width: 40%;
-    margin-left: 30%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
+  .click1 {
+    position: absolute;
+    margin-top: -3vh;
+    margin-left: 66vw
+  }
+
+  .click2 {
+    position: absolute;
+    margin-left: 66vw;
+    margin-top: -9vh;
+  }
   
+  /*page5*/
+
+  .page5content h2 {
+    margin-top: 90px;
+    font-size: 2rem;
+  }
+
+  .page5content p {
+    margin-top: 60px;
+    font-size: 1.3rem;
+  }
+ 
+  #name {
+    margin-bottom: 20px;
+  }
+
+  #email {
+    margin-bottom: 20px;
+  }
+
+  #message {
+    margin-bottom: 20px;
+  }  
 }
 
 
+@media screen and (min-width: 750px) {
+
+  .articlepage2 content h2 {
+    margin-bottom: 5%;
+  }
+
+  .articlepage2 content p {
+    width: 73%;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media screen and (min-width: 1024px) {
-  
-  .shape {
+
+  /*pag1*/
+
+  /*.shape {
   stroke-dasharray: 140 540;
   stroke-dashoffset: -474;
   stroke-width: 8px;
   stroke: black;
+  }*/
+
+  /*page2*/
+  .articlepage2 content h3 {
+    font-size: 2.5rem;
   }
   
-  .page1icons ul li {
-    line-height: 3;
-  }
-
   .articlepage2 content p {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    font-size: 3vh;
-  }
-
-  .resumeandclick p {
-    margin-left: 36vw;
+    font-size: 1.7rem;
   }
 
   .resumeandclick img {
     margin-top: 6vw;
   }
 
+  /*page3*/
+
+  .page3content {
+    width: 75%;
+    margin-left: 10%;
+  }
+
   .technical {
-    font-size: 3vw;
-    font-size: 1.5vw;
-    width: 80%;
+    font-size: 1.5rem;
     margin-top: 11vh;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .management {
-    font-size: 1.5vw;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10vh;
+    font-size: 1.5rem;
+    margin-top: 10%;
   }
   
   .life {
-    font-size: 1.5vw;
-    width: 78%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 11vh
-  }
-
-  .page3content h3 {
-    margin-top: 10vh;
-    font-size: 3vw;
+    font-size: 1.5rem;
+    margin-top: 10%;
   }
 
   .line1 {
-    margin-right: 2vw;
-    margin-left: 12vw;
-    font-size: 2vmin;
+   
+    margin-left: 12%;
+    font-size: 0.9rem;
   }
 
   .line2 {
-    margin-left: 17vw;
-    margin-right: 6vw;
-    font-size: 2vmin;
+    margin-left: 13%;
+    margin-right: 6%;
+    font-size: 0.9rem;
   }
 
   .line3 {
-    margin-left: 18vw;
-    margin-right: 3vw;
-    font-size: 2vmin;
+    margin-left: 14%;
+    margin-right: 3%;
+    font-size: 0.9rem;
   } 
 
   .line4 {
-    margin-left: 24vw;
-    font-size: 2vmin;
+    margin-left: 17%;
+    font-size: 0.9rem;
   }
 
   .line5 {
-    margin-left: 22vw;
-    font-size: 2vmin;
+    margin-left: 15%;
+    font-size: 0.9rem;
   }
 
   .line {
     display: none;
   }
 
+  .page3content h3 {
+    font-size: 2rem;
+  }
+
   .projects {
-    display: inline-block;
+    margin-left: 10%;
   }
 
   .imgloyalty {
-    width: 30vw;
+    width: 25vw;
     height: auto;
     float: left;
   }
 
   .imgspace {
-    width: 30vw;
+    width: 25vw;
     height: auto;
     float: right;
+    margin-right: 4%;
   }
 
-  .chocolatree {
-    margin-left: 18vw;
-  }
+  /*page4*/
   
-  .coffylosophy {
-    margin-left: 18vw;
+  .page4content h2 {
+    margin-top: 10vh;
+    font-size: 2rem;
   }
+
+  .page4content p {
+    font-size: 1.7rem;
+  }
+
+  /*page5*/
+  
+  .page5content p {
+    font-size: 1.7rem;
+  }
+
 }

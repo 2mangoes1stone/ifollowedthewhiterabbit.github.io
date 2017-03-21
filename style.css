@@ -258,17 +258,18 @@ a, a:hover, a:focus {
 }
 
 .technical {
-  font-size: 3vw;
-  margin-top: 8vh;
-  margin-bottom: 2vh;
+  font-size: 4vmin;
+  height: 1.2em;
+  margin-top: 15%;
   text-align: center;
   background-color: #FF6600;
   color: white;
 }
 
 .management {
-  font-size: 3vw;
-  margin-top: 10vh;
+  font-size: 4vmin;
+  height: 1.2em;
+  margin-top: 17%;
   margin-bottom: 2vh;
   text-align: center;
   background-color: #FF6600;
@@ -276,9 +277,10 @@ a, a:hover, a:focus {
 }
 
 .life {
-  font-size: 3vw;
+  font-size: 4vmin;
+  height: 1.2em;
   padding-right: 3vw;
-  margin-top: 11vh;
+  margin-top: 17%;
   margin-bottom: 2vh;
   text-align: center;
   background-color: #FF6600;
@@ -286,19 +288,19 @@ a, a:hover, a:focus {
 }
 
 .line1 {
-  margin-top: 0vh;
+  margin-top: 0;
   float: left;
-  margin-left: 8vw;
-  margin-right: -2vw;
+  margin-left: 8%;
+  margin-right: -2%;
   font-size: 3vmin;
   color: #050500;
 }
 
 .line2 {
   float: left;
-  margin-top: 0vh;
-  margin-left: 8vw;
-  margin-right: 5vw;
+  margin-top: 0;
+  margin-left: 8%;
+  margin-right: 5%;
   font-size: 3vmin;
   color: #050500;
 }
@@ -306,8 +308,8 @@ a, a:hover, a:focus {
 .line3 {
   float: left;
   margin-top: 0;
-  margin-left: 8vw;
-  margin-right: 3vw;
+  margin-left: 8%;
+  margin-right: 3%;
   font-size: 3vmin;
   color: #050500;
 }
@@ -315,8 +317,8 @@ a, a:hover, a:focus {
 .line4 {
   float: left;
   margin-top: 0;
-  margin-left: 8vw;
-  margin-right: 3vw;
+  margin-left: 8%;
+  margin-right: 3%;
   font-size: 3vmin;
   color: #050500;
 }
@@ -324,8 +326,8 @@ a, a:hover, a:focus {
 .line5 {
   float: left;
   margin-top: 0;
-  margin-left: 8vw;
-  margin-right: -3vw;
+  margin-left: 8%;
+  margin-right: -3%;
   font-size: 3vmin;
   color: #050500;
 }
@@ -334,21 +336,19 @@ a, a:hover, a:focus {
   font-family: 'Julius Sans One', sans-serif;
   color: #FF6600;
   text-align: center;
-  margin-top: 9vh;
+  margin-top: 12%;
   margin-bottom: 0;
 }
 
 .projects {
-  margin-top: 1vh;
-  margin-bottom: 1vh;
   margin-left: auto;
-  margin-right: 20vw;
+  margin-right: 20%;
   height: 44vh;
   width: 60vw;
 }
 
 .projects p {
-  font-size: 2vh;
+  font-size: 3.6vmin;
   text-align: center;
 }
 
@@ -363,7 +363,7 @@ a, a:hover, a:focus {
 }
 
 .imgloyalty {
-  margin-left: 10vw;
+  margin-left: 23%;
   margin-top: 0;
   margin-bottom: 1vh;
   height: 15vh;
@@ -376,7 +376,7 @@ a, a:hover, a:focus {
 }
 
 .imgspace {
-  margin-left: 10vw;
+  margin-left: 23%;
   margin-top: 0;
   margin-bottom: 1vh;
   height: 15vh;
@@ -407,7 +407,6 @@ a, a:hover, a:focus {
 
 .page4content {
     position: absolute;
-    /*top: 4rem;*/
 }
 
 .page4content h2 {
@@ -548,13 +547,18 @@ a, a:hover, a:focus {
 
 /*tablet - greater than 768 px*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 450px) {
 
 /*page1*/
   .page1icons ul li {
     line-height: 5;
   }
 /*page2*/
+
+  .articlepage2 content p {
+    font-size: 3.5vmin;
+  }
+
   .resumeandclick p {
     margin-left: 27vw;
   }
@@ -583,10 +587,14 @@ a, a:hover, a:focus {
 
   .projects {
     width: 80%;
-    height: 30vh;
+    height: 34vh;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .projects p {
+   margin-bottom: 1vh;
   }
 
   .loyaltycard {
@@ -594,32 +602,39 @@ a, a:hover, a:focus {
     width: 50%;
   }
 
+ .loyaltycard p {
+    margin-left: -2%;
+ }
   .imgloyalty {
-    margin-left: 6vw;
+    margin-left: 1%;
+    height: 19vh;
+    width: 35vw;
   }
 
   .imgspace {
     margin-left: 5vw;
+    height: 19vh;
+    width: 35vw;
   }
 
   .line {
     display: none;
   }
 /*page4*/
+
+  .page4p {
+    font-size: 3.5vmin;
+  }
+
   .chocolatree {
-    width: 45vmin;
-    margin-left: 18vmin;
-    padding-left: 7vmin;
-    
+    width: 40%;
+    margin-left: 30%;
   }
   
   .coffylosophy {
-    width: 45vmin;
-    margin-left: 18vmin;
-    padding-left: 7vmin;
+    width: 40%;
+    margin-left: 30%;
   }
-
-
 
   
 }

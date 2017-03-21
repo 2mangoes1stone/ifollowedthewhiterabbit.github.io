@@ -552,14 +552,6 @@ a, a:hover, a:focus {
 
 @media screen and (min-width: 768px) {
 
-  .main-text {
-    font-size: 3.5rem;
-  }
-
-  .description-text {
-    font-size: 0.8rem;
-  }
-  
   .page1icons ul li {
     line-height: 5;
   }

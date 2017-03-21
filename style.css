@@ -212,7 +212,7 @@ a, a:hover, a:focus {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 7vmin;
   float: left;
-  margin-left: 23vw;
+  margin-left: 26vw;
 }
 
 .resumeandclick img {
@@ -342,7 +342,7 @@ a, a:hover, a:focus {
 .projects {
   margin-top: 1vh;
   margin-bottom: 1vh;
-  margin-left: 20vw;
+  margin-left: auto;
   margin-right: 20vw;
   height: 44vh;
   width: 60vw;

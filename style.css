@@ -1,11 +1,10 @@
 @-ms-viewport {width: device-width;}
 
 body {margin: 0;
-      width: 100vw;
-      height: 100vh;}
+    }
 
 /*page1*/
-.page1{
+.page1 {
   height:100vh;
   width: 100vw;
   background: url(images/denys-nevozhai-185489.jpg) no-repeat center center fixed;
@@ -15,6 +14,22 @@ body {margin: 0;
   -moz-background-size: cover;
   margin-bottom: 0;
 }
+
+.page1:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(images/denys-nevozhai-185489.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
 
 
 .page1icons ul {
@@ -119,6 +134,22 @@ a, a:hover, a:focus {
   position: relative;
   z-index: -1;
 }
+
+.page2image:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(images/vigi.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
 
 .page2content {
   position: absolute;
@@ -244,6 +275,24 @@ a, a:hover, a:focus {
   position: relative;
   z-index: -1;
 }
+
+.page3image:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(images/william-iven-19843.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+
 
 .page3content {
     position: absolute;
@@ -417,6 +466,22 @@ a, a:hover, a:focus {
   z-index: -1;
 }
 
+.page4image:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(images/dowork.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background
+}
+
 .page4content {
     position: absolute;
     /*top: 4rem;*/
@@ -490,6 +555,22 @@ a, a:hover, a:focus {
   margin-bottom: 0;
   position: relative;
   z-index: -1;
+}
+
+.page5image:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(images/pavan-trikutam-1660.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background
 }
 
 .page5content {
@@ -608,11 +689,6 @@ a, a:hover, a:focus {
 
 
 @media screen and (min-width: 1024px) {
-
-  /*.page1 {
-    background: url(images/denys-nevozhai-185489.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }*/
   
   .shape {
   stroke-dasharray: 140 540;
@@ -623,11 +699,6 @@ a, a:hover, a:focus {
   
   .page1icons ul li {
     line-height: 3;
-  }
-
-  /*.page2image {
-    background: url(images/vigi.jpg) no-repeat center center fixed;
-    background-size: cover;*/
   }
 
   .articlepage2 content p {
@@ -644,11 +715,6 @@ a, a:hover, a:focus {
   .resumeandclick img {
     margin-top: 6vw;
   }
-
-  /*.page3image {
-    background: url(images/william-iven-19843.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }*/
 
   .technical {
     font-size: 3vw;
@@ -728,11 +794,6 @@ a, a:hover, a:focus {
     float: right;
   }
 
-  /*.page4image {
-    background: url(images/dowork.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }*/
-
   .chocolatree {
     margin-left: 18vw;
   }
@@ -740,9 +801,4 @@ a, a:hover, a:focus {
   .coffylosophy {
     margin-left: 18vw;
   }
-
-  /*.page5image {
-    background: url(images/pavan-trikutam-1660.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }*/
 }

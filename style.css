@@ -173,7 +173,7 @@ a, a:hover, a:focus {
   width: 50%;
 }
 
-.articlepage2 content h3 {
+.articlepage2 content h2 {
   color: #FF6600;
   clear: both;
   text-align: center;
@@ -550,19 +550,18 @@ a, a:hover, a:focus {
 }
 
 .favicon img{
+  text-align: center;
   height: 3vh;
 }
 
 
-/*tablet - greater than 768 px*/
+/*landscape*/
 
 @media screen and (min-width: 450px) {
-
-/*page1*/
   
 /*page2*/
 
-  .articlepage2 content h3 {
+  .articlepage2 content h2 {
     margin-top: 80px;
   }
 
@@ -713,12 +712,12 @@ a, a:hover, a:focus {
 }
 
 
+/*tablet and larger*/
 @media screen and (min-width: 750px) {
 
 /*page2*/
-  
 
-  .articlepage2 content h3 {
+  .articlepage2 content h2 {
     margin-top: 98px;
     margin-bottom: 1%;
   }
@@ -734,21 +733,12 @@ a, a:hover, a:focus {
     width: 25vw;
   }
 
-  .reactjs {
-    margin-right: 15%;
-  }
-
-  .finance {
-    margin-right: 15%;
-  }
 }
 
 @media screen and (min-width: 1024px) {
 
-  /*pag1*/
-
   /*page2*/
-  .articlepage2 content h3 {
+  .articlepage2 content h2 {
     font-size: 2.5rem;
     margin-bottom: 1px;
     padding-bottom: 1px;

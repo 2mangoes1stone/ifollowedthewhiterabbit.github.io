@@ -580,15 +580,15 @@ a, a:hover, a:focus {
 
   .technical {
     margin-top: 58px;
-    font-size: 3vh;
+    font-size: 1.1rem;
   }
 
   .management {
-    font-size: 3vh;
+    font-size: 1.1rem;
   }
   
   .life {
-    font-size: 3vh;
+    font-size: 1.1rem;
   }
   
 
@@ -784,7 +784,7 @@ a, a:hover, a:focus {
     font-size: 1.5rem;
   }
 
-  .line1 {
+  /*.line1 {
     font-size: 0.9rem;
   }
 
@@ -802,7 +802,7 @@ a, a:hover, a:focus {
 
   .line5 {
     font-size: 0.9rem;
-  }
+  }*/
 
   .line {
     display: none;

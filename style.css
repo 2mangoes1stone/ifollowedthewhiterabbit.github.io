@@ -107,14 +107,14 @@ a, a:hover, a:focus {
 .page2image {
   height:100vh;
   width: 100vw;
-  background: url(images/vigi.jpg) no-repeat center center;
+  background: url(images/vigi.png) no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   height: 100vh;
   margin-bottom: 0;
-  opacity: 0.15;
+  /*opacity: 0.15;*/
   position: relative;
   z-index: -1;
 }
@@ -783,7 +783,13 @@ a, a:hover, a:focus {
     margin-right: auto;
   }
 
+  .reactjs {
+    margin-right: 15%;
+  }
 
+  .finance {
+    margin-right: 15%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -838,9 +844,12 @@ a, a:hover, a:focus {
   }
 
   .line1 {
-   
     margin-left: 12%;
     font-size: 0.9rem;
+  }
+
+  .reactjs {
+    margin-right: 3%;
   }
 
   .line2 {

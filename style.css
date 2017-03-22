@@ -10,6 +10,7 @@ body {margin: 0;
   height:100vh;
   width: 100vw;
   background: url(images/1denys-nevozhai-185489.jpg) no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   margin-bottom: 0;
 }
@@ -107,6 +108,7 @@ a, a:hover, a:focus {
   height:100%;
   width: 100%;
   background: url(images/vigi.png) no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   margin-bottom: 0;
   /*opacity: 0.15;*/
@@ -186,15 +188,6 @@ a, a:hover, a:focus {
   text-decoration: underline;
 }
 
-/*resume link*/
-/*.resumeandclick {
-  margin-top: 3vh;
-  display: inline;
-}*/
-
-/*.resumeandclick a {
-  color: #050500;
-}*/
 
 .resumeandclick a:hover {
   background-color: #FF6600;
@@ -206,20 +199,6 @@ a, a:hover, a:focus {
     margin-left: auto;
     display: block;
 }
-
-
-/*.resumeandclick p {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.2rem;
-  text-align: center;
-}*/
-
-/*.resumeandclick img {
-  height: 3vh;
-  margin-right: 25%;
-  margin-top: -14%;
-  float: right;
-}*/
 
 /*page 3*/
 .page3wrap {
@@ -243,6 +222,7 @@ a, a:hover, a:focus {
   height: 100%;
   width: 100%;
   background: url(images/william-iven-19843.jpg) no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   margin-bottom: 0;
   opacity: 0.15;
@@ -402,6 +382,7 @@ a, a:hover, a:focus {
   height:100%;
   width: 100%;
   background: url(images/dowork.jpg) no-repeat center center;
+  background-attachment: fixed;
   background-color: white;
   background-size: cover;
   opacity: 0.15;
@@ -430,8 +411,6 @@ a, a:hover, a:focus {
   line-height: 1.5;
   text-align: center;
 }
-
-/*sds*/
 
 .chocolatreeandclick {
   display: inline;
@@ -486,6 +465,7 @@ a, a:hover, a:focus {
   height:100%;
   width: 100%;
   background: url(images/pavan-trikutam-1660.jpg) no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   opacity: 0.15;
   margin-bottom: 0;

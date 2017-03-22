@@ -607,7 +607,7 @@ a, a:hover, a:focus {
   }
   
   .life {
-    margin-top: 78px;
+    margin-top: 80px;
     font-size: 3vh;
   }
 
@@ -768,8 +768,12 @@ a, a:hover, a:focus {
 
 @media screen and (min-width: 750px) {
 
-  .articlepage2 content h2 {
-    margin-bottom: 5%;
+/*page2*/
+  
+
+  .articlepage2 content h3 {
+    margin-top: 98px;
+    margin-bottom: 1%;
   }
 
   .articlepage2 content p {
@@ -778,6 +782,8 @@ a, a:hover, a:focus {
     margin-left: auto;
     margin-right: auto;
   }
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -794,13 +800,15 @@ a, a:hover, a:focus {
   /*page2*/
   .articlepage2 content h3 {
     font-size: 2.5rem;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
   }
   
   .articlepage2 content p {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .resumeandclick img {
@@ -887,6 +895,7 @@ a, a:hover, a:focus {
   .page4content h2 {
     margin-top: 10vh;
     font-size: 2rem;
+    margin-bottom: 5px;
   }
 
   .page4content p {

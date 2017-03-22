@@ -56,7 +56,7 @@ a, a:hover, a:focus {
 .shape {
   stroke-dasharray: 140 540;
   stroke-dashoffset: -474;
-  stroke-width: 8px;
+  stroke-width: 2px;
   fill: transparent;
   stroke: black;
   border-bottom: 1px solid black;
@@ -177,7 +177,7 @@ a, a:hover, a:focus {
 .articlepage2 content p {
   text-align: center;
   line-height: 1.5;
-  font-size: 1.212rem;
+  font-size: 1rem;
   margin-top: -8%;
 }
 
@@ -553,6 +553,7 @@ a, a:hover, a:focus {
   color: white;
   border-radius: 0;
   font-size: 2vh;
+  text-align: center;
 }
 
 .favicon {
@@ -579,6 +580,11 @@ a, a:hover, a:focus {
 
   .articlepage2 content p {
     font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+
+  .resume img {
+    width: 30vw;
   }
 
 /*page3*/
@@ -605,7 +611,7 @@ a, a:hover, a:focus {
 
   .line1, .line2, .line3,
   .line4, .line5 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .projects {
@@ -736,6 +742,10 @@ a, a:hover, a:focus {
     margin-right: auto;
   }
 
+  .resume img {
+    width: 25vw;
+  }
+
   .reactjs {
     margin-right: 15%;
   }
@@ -763,8 +773,9 @@ a, a:hover, a:focus {
     font-size: 1.5rem;
   }
 
-  .resumeandclick img {
-    margin-top: 6vw;
+  .resume img {
+    margin-top: 3vh;
+    width: 23vw;
   }
 
   /*page3*/
@@ -793,7 +804,8 @@ a, a:hover, a:focus {
 
   .page3content h3 {
     font-size: 2rem;
-    margin-top: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
   }
 
   .projects {

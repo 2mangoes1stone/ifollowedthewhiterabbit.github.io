@@ -10,7 +10,7 @@
         <meta property="og:type" content="website">
         <meta property="og:image" content="Icons/favicon.png">
         <meta property="og:description" content="Vigi is a web developer based in Melbourne Australia">
-        
+
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -29,6 +29,24 @@
     </head>
     
     <body>
+      <!--detecting tocuh ot non touch device-->
+      <script>
+        var supports = (function() {
+            var d = document.documentElement,
+                c = "ontouchstart" in window || navigator.msMaxTouchPoints;
+            if (c) {
+                d.className += " touch";
+                return {
+                    touch: true
+                }
+            } else {
+                d.className += " no-touch";
+                return {
+                    touch: false
+                }
+            }
+        })();
+      </script>
       
       <!--main page-->
       <div class="page1">

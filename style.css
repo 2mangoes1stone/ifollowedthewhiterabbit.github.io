@@ -10,9 +10,12 @@ body {margin: 0;
   height:100vh;
   width: 100vw;
   background: url(images/1denys-nevozhai-185489.jpg) no-repeat center center;
-  background-attachment: fixed;
   background-size: cover;
   margin-bottom: 0;
+}
+
+.no-touch .page1 {
+  background-attachment: fixed;
 }
 
 
@@ -108,10 +111,13 @@ a, a:hover, a:focus {
   height:100%;
   width: 100%;
   background: url(images/vigi.png) no-repeat center center;
-  background-attachment: fixed;
   background-size: cover;
   margin-bottom: 0;
   /*opacity: 0.15;*/
+}
+
+.no-touch .page2image {
+  background-attachment: fixed;
 }
 
 .page2content {
@@ -168,6 +174,7 @@ a, a:hover, a:focus {
 }
 
 .articlepage2 content h3 {
+  color: #FF6600;
   clear: both;
   text-align: center;
   margin-top: 60px;
@@ -200,6 +207,7 @@ a, a:hover, a:focus {
     display: block;
 }
 
+
 /*page 3*/
 .page3wrap {
   position: relative;
@@ -222,12 +230,14 @@ a, a:hover, a:focus {
   height: 100%;
   width: 100%;
   background: url(images/william-iven-19843.jpg) no-repeat center center;
-  background-attachment: fixed;
   background-size: cover;
   margin-bottom: 0;
   opacity: 0.15;
 }
 
+.no-touch .page3image {
+  background-attachment: fixed;
+}
 
 /*dev skills*/
 .skillnames {
@@ -382,15 +392,14 @@ a, a:hover, a:focus {
   height:100%;
   width: 100%;
   background: url(images/dowork.jpg) no-repeat center center;
-  background-attachment: fixed;
   background-color: white;
   background-size: cover;
   opacity: 0.15;
   margin-bottom: 0;
 }
 
-.page4content {
-    
+.no-touch .page4image {
+  background-attachment: fixed;
 }
 
 .page4content h2 {
@@ -465,14 +474,13 @@ a, a:hover, a:focus {
   height:100%;
   width: 100%;
   background: url(images/pavan-trikutam-1660.jpg) no-repeat center center;
-  background-attachment: fixed;
   background-size: cover;
   opacity: 0.15;
   margin-bottom: 0;
 }
 
-.page5content {
-    
+.no-touch .page5image {
+  background-attachment: fixed;
 }
 
 .page5content h2 {

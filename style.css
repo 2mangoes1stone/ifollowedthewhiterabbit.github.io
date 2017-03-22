@@ -1,9 +1,9 @@
 @-ms-viewport {width: device-width;}
 
 
-
 body {margin: 0;
     }
+
 
 /*page1*/
 .page1{
@@ -18,7 +18,7 @@ body {margin: 0;
 .page1icons ul {
   list-style-type: none;
   margin-right: 0vw;
-  margin-top: 55vh;
+  margin-top: 43vh;
   position: fixed;
   right: 5px;
   line-height: 2;
@@ -26,8 +26,9 @@ body {margin: 0;
 }
 
 .page1icons ul li {
-  line-height: 3;
+  line-height: 2.4;
 }
+
 
 /*sizing icons on page 1*/
 .page1iconsize {
@@ -89,11 +90,6 @@ a, a:hover, a:focus {
   stroke-width: 2px;
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
-}
-
-/*codepe icon- making it stay in page when responsive*/
-#bottomicon {
-  margin-bottom: 2vh;
 }
 
 /*page 2*/
@@ -191,32 +187,39 @@ a, a:hover, a:focus {
 }
 
 /*resume link*/
-.resumeandclick {
+/*.resumeandclick {
   margin-top: 3vh;
   display: inline;
-}
+}*/
 
-.resumeandclick a {
+/*.resumeandclick a {
   color: #050500;
+}*/
+
+.resumeandclick a:hover {
+  background-color: #FF6600;
 }
 
-.resume:hover {
-  color: #FF6600;
+.resume img {
+  width: 40vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
-.resumeandclick p {
+
+/*.resumeandclick p {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 2.2rem;
   text-align: center;
-}
+}*/
 
-.resumeandclick img {
-  /*height: 3vh;
+/*.resumeandclick img {
+  height: 3vh;
   margin-right: 25%;
   margin-top: -14%;
-  float: right;*/
-  display: none;
-}
+  float: right;
+}*/
 
 /*page 3*/
 .page3wrap {
@@ -333,7 +336,8 @@ a, a:hover, a:focus {
 }
 
 .projects p {
-  font-size: 1.1rem;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 0.7rem;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -429,6 +433,14 @@ a, a:hover, a:focus {
 
 /*sds*/
 
+.chocolatreeandclick {
+  display: inline;
+}
+
+.coffylosophyandclick {
+  display: inline;
+}
+
 .chocolatree {
   width: 60vw;
   height: auto;
@@ -443,14 +455,6 @@ a, a:hover, a:focus {
   margin-left: 14vw;
   margin-right: 4vw;
   margin-top: 5vh;
-}
-
-.chocolatreeandclick {
-  display: inline;
-}
-
-.coffylosophyandclick {
-  display: inline;
 }
 
 .click1 {
@@ -560,6 +564,7 @@ a, a:hover, a:focus {
   height: 3vh;
 }
 
+
 /*tablet - greater than 768 px*/
 
 @media screen and (min-width: 450px) {
@@ -580,22 +585,27 @@ a, a:hover, a:focus {
 
   .technical {
     margin-top: 58px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   .management {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
   
   .life {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
   
 
   .page3content h3 {
     margin-top: 30px;
-    font-size: 3vh;
+    font-size: 1rem;
     margin-left: -3vw;
+  }
+
+  .line1, .line2, .line3,
+  .line4, .line5 {
+    font-size: 0.7rem;
   }
 
   .projects {
@@ -609,8 +619,9 @@ a, a:hover, a:focus {
   .projects p {
    margin-bottom: 1vh;
    margin-left: -2%;
-   margin-top: 0;
+   margin-top: 2px;
   }
+
 
   .loyaltycard {
     float: left;
@@ -637,15 +648,6 @@ a, a:hover, a:focus {
 
   .line {
     display: none;
-  }
-
-  .line1, .line2, .line3,
-  .line4, .line5 {
-    font-size: 0.8rem;
-  }
-
-  .mongodb {
-    margin-left: 6%;
   }
 
 /*page4*/
@@ -773,6 +775,7 @@ a, a:hover, a:focus {
   }
 
   .technical {
+    margin-top: 80px;
     font-size: 1.5rem;
   }
 
@@ -783,26 +786,6 @@ a, a:hover, a:focus {
   .life {
     font-size: 1.5rem;
   }
-
-  /*.line1 {
-    font-size: 0.9rem;
-  }
-
-  .line2 {
-    font-size: 0.9rem;
-  }
-
-  .line3 {
-    font-size: 0.9rem;
-  } 
-
-  .line4 {
-    font-size: 0.9rem;
-  }
-
-  .line5 {
-    font-size: 0.9rem;
-  }*/
 
   .line {
     display: none;
@@ -815,6 +798,10 @@ a, a:hover, a:focus {
 
   .projects {
     margin-left: 10%;
+  }
+
+  .projects p {
+    font-size: 1rem;
   }
 
   .imgloyalty {

@@ -155,12 +155,12 @@ a, a:hover, a:focus {
   padding: 3vmin;
 }
 
-.navbar a:hover
- {
+.navbar a:hover {
   color: #FF6600;
   margin-top: 0;
-
 }
+
+
 
 .articlepage2{
   margin-left: 10%;

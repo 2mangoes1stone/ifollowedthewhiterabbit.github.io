@@ -1,5 +1,7 @@
 @-ms-viewport {width: device-width;}
 
+
+
 body {margin: 0;
     }
 
@@ -668,35 +670,6 @@ a, a:hover, a:focus {
     margin-left: 6%;
   }
 
-  /*.angularjs {
-    margin-left: 6%;
-  }
-
-  .leadership {
-    margin-left: 12%; 
-  }*/
-  /*.line1 { 
-    margin-left: 10%
-  }
-
-  .line2 {
-    margin-left: 11%;
-    margin-right: 4%;
-  }
-
-  .line3 {
-    margin-left: 11%;
-  }
-
-  .line4 {
-    margin-left: 13%;
-  }
-
-  .line5 {
-    margin-left: 11%;
-  }*/
-
-
 /*page4*/
 
   .page4p {
@@ -778,7 +751,7 @@ a, a:hover, a:focus {
 
   .articlepage2 content p {
     width: 73%;
-    margin-top: 1px;
+    margin-top: -2%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -796,12 +769,6 @@ a, a:hover, a:focus {
 
   /*pag1*/
 
-  /*.shape {
-  stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
-  stroke-width: 8px;
-  stroke: black;
-  }*/
 
   /*page2*/
   .articlepage2 content h3 {

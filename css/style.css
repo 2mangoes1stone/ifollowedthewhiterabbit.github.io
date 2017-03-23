@@ -2,8 +2,7 @@
 
 
 body {margin: 0;
-    }
-
+  }
 
 /*page1*/
 .page1{
@@ -17,7 +16,6 @@ body {margin: 0;
 .no-touch .page1 {
   background-attachment: fixed;
 }
-
 
 .page1icons ul {
   list-style-type: none;
@@ -33,14 +31,12 @@ body {margin: 0;
   line-height: 3;
 }
 
-
 /*sizing icons on page 1*/
 .page1iconsize {
   overflow: hidden;
   height: 3vh;
   width: auto;
 }
-
 
 a, a:hover, a:focus {
   text-decoration: none;
@@ -56,7 +52,7 @@ a, a:hover, a:focus {
   cursor:default;
 }
 
-/*commented properties for desktop*/
+/*hover animation*/
 .shape {
   stroke-dasharray: 140 540;
   stroke-dashoffset: -474;
@@ -86,7 +82,6 @@ a, a:hover, a:focus {
     color: black;
     position: relative;
     text-decoration: none;
-    /*top: 21%;*/
     text-align: center;
 }
 
@@ -113,15 +108,10 @@ a, a:hover, a:focus {
   background: url(../images/vigi.png) no-repeat center center;
   background-size: cover;
   margin-bottom: 0;
-  /*opacity: 0.15;*/
 }
 
 .no-touch .page2image {
   background-attachment: fixed;
-}
-
-.page2content {
-  
 }
 
 /*make the navbar horizontal because JS fixed has width of 0*/
@@ -160,12 +150,9 @@ a, a:hover, a:focus {
   margin-top: 0;
 }
 
-
-
 .articlepage2{
   margin-left: 10%;
   margin-right: 10%;
-  
 }
 
 .articlepage2 content {
@@ -195,7 +182,6 @@ a, a:hover, a:focus {
   text-decoration: underline;
 }
 
-
 .resumeandclick a:hover {
   background-color: #FF6600;
 }
@@ -206,7 +192,6 @@ a, a:hover, a:focus {
     margin-left: auto;
     display: block;
 }
-
 
 /*page 3*/
 .page3wrap {
@@ -281,30 +266,8 @@ a, a:hover, a:focus {
   display: none;
 }
 
-.line1 {
-  text-align: center;;
-  font-size: 3vmin;
-  color: #050500;
-}
-
-.line2 {
-  text-align: center;
-  font-size: 3vmin;
-  color: #050500;
-}
-
-.line3 {
-  text-align: center;
-  font-size: 3vmin;
-  color: #050500;
-}
-
-.line4 {
-  text-align: center;
-  font-size: 3vmin;
-  color: #050500;
-}
-
+.line1, .line2,
+.line3, .line4,
 .line5 {
   text-align: center;
   font-size: 3vmin;
@@ -360,7 +323,6 @@ a, a:hover, a:focus {
   height: 15vh;
   width: auto;
 }
-
 
 .stuckinspace {
   display: inline;
@@ -421,28 +383,18 @@ a, a:hover, a:focus {
   text-align: center;
 }
 
-.chocolatreeandclick {
-  display: inline;
-}
-
+.chocolatreeandclick,
 .coffylosophyandclick {
   display: inline;
 }
 
-.chocolatree {
-  width: 60vw;
-  height: auto;
-  margin-left: 14vw;
-  margin-right: 4vw;
-  margin-top: 3vh;
-}
-
+.chocolatree,
 .coffylosophy {
   width: 60vw;
   height: auto;
   margin-left: 14vw;
   margin-right: 4vw;
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 
 .click1 {
@@ -458,7 +410,6 @@ a, a:hover, a:focus {
 }
 
 /*page 5*/
-
 .page5wrap {
     position: relative;
     overflow: hidden;
@@ -507,16 +458,7 @@ a, a:hover, a:focus {
   text-align: center;
 }
 
-#name {
-  margin-bottom: 7%;
-  font-family: 'Open Sans Condensed', sans-serif;
-  border-radius: 0;
-  height: 3vh;
-  width: 40vw;
-  font-size: 2.5vh;
-}
-
-#email {
+#name, #email {
   margin-bottom: 7%;
   font-family: 'Open Sans Condensed', sans-serif;
   border-radius: 0;
@@ -550,17 +492,12 @@ a, a:hover, a:focus {
 }
 
 .favicon img{
-  text-align: center;
   height: 3vh;
 }
-
-
-/*landscape*/
 
 @media screen and (min-width: 450px) {
   
 /*page2*/
-
   .articlepage2 content h2 {
     margin-top: 80px;
   }
@@ -575,7 +512,6 @@ a, a:hover, a:focus {
   }
 
 /*page3*/
-
   .technical {
     margin-top: 76px;
     font-size: 0.9rem;
@@ -589,7 +525,6 @@ a, a:hover, a:focus {
     font-size: 0.9rem;
   }
   
-
   .page3content h3 {
     margin-top: 30px;
     font-size: 1rem;
@@ -614,7 +549,6 @@ a, a:hover, a:focus {
    margin-left: -2%;
    margin-top: 2px;
   }
-
 
   .loyaltycard {
     float: left;
@@ -644,7 +578,6 @@ a, a:hover, a:focus {
   }
 
 /*page4*/
-
   .page4p {
     font-size: 1.5rem;
   }
@@ -658,15 +591,9 @@ a, a:hover, a:focus {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-}
-
-  .chocolatree {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
   }
-  
+
+  .chocolatree,
   .coffylosophy {
     width: 30%;
     margin-left: auto;
@@ -687,7 +614,6 @@ a, a:hover, a:focus {
   }
   
   /*page5*/
-
   .page5content h2 {
     margin-top: 90px;
     font-size: 2rem;
@@ -698,17 +624,9 @@ a, a:hover, a:focus {
     font-size: 1.3rem;
   }
  
-  #name {
+  #name, #email, #message {
     margin-bottom: 20px;
   }
-
-  #email {
-    margin-bottom: 20px;
-  }
-
-  #message {
-    margin-bottom: 20px;
-  }  
 }
 
 
@@ -716,7 +634,6 @@ a, a:hover, a:focus {
 @media screen and (min-width: 750px) {
 
 /*page2*/
-
   .articlepage2 content h2 {
     margin-top: 98px;
     margin-bottom: 1%;
@@ -732,9 +649,9 @@ a, a:hover, a:focus {
   .resume img {
     width: 25vw;
   }
-
 }
 
+/*larger screens*/
 @media screen and (min-width: 1024px) {
 
   /*page2*/
@@ -757,7 +674,6 @@ a, a:hover, a:focus {
   }
 
   /*page3*/
-
   .page3content {
     width: 75%;
     margin-left: 10%;
@@ -808,7 +724,6 @@ a, a:hover, a:focus {
   }
 
   /*page4*/
-  
   .page4content h2 {
     margin-top: 10vh;
     font-size: 2rem;
@@ -820,9 +735,7 @@ a, a:hover, a:focus {
   }
 
   /*page5*/
-  
   .page5content p {
     font-size: 1.7rem;
   }
-
 }

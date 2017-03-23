@@ -50,7 +50,7 @@ Upon viewing my website, you will see that it slightly varies from the wireframe
 
 ### Language
 
-I had some knowledge in HTML and CSS before and had created a couple web pages in the past using the bootstrap library. But I wanted to use plain vanilla CSS and avoid using any frameworks just so I could get familiar with the basics. I had to use Javascript in a few places but I have kept this to a minimum and mainly concentrated on getting my head around CSS.
+I had limited knowledge in HTML and CSS and had created a couple web pages in the past using the bootstrap library. But I wanted to use plain vanilla CSS and avoid using any frameworks just so I could get familiar with the basics. I had to use Javascript in a few places but I have kept this to a minimum and mainly concentrated on getting my head around CSS.
 
 ### Style Guide
 

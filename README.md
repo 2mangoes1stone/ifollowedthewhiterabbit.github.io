@@ -16,15 +16,15 @@ I also wanted to keep my design clean and neat and avoid any clutter of informat
 
 ### Influence
 
-I started off by creating a mood board on Pinterest on designs and images that caught my eye. I really wanted a simple design which would be easy on the eye, and at the same time deliver the message I wanted to get across in an elegant manner.
-It became evident to me soon that I would make a single page website with about 4-5 sections and each section serving as a entire page height with some sort of a meaningful background.
+I started off by creating a mood board on Pinterest on designs and images that caught my eye. I really wanted a simple design which would be to look at, and at the same time deliver the message I wanted to get across in an elegant manner.
+It soon became evident to me that I would make a single page website with about 4-5 sections and each section filling an entire viewport with a meaningful background image.
 
 ![pinterest1](reference/pinterest1.png)
 ![pinterest2](reference/pinterest2.png)
 
 ### The content
 
-The content I wanted to display at first glance was a brief about myself, my skills, links to social media, past work and a contact form.
+My aim was to keep the content minimal at first glance, enough to catch the eye. It includes a brief about myself, my skills, links to social media, past work and a contact form.
 
 Below is an initial mock up of what I thought of including in as content.
 
@@ -36,9 +36,9 @@ As you can see, I soon realised I was overcomplicating things by trying to portr
 
 To make a mock up of my website, I used figma as a design tool.
 
-I wanted my landing page to be catchy and warm at the same time. I really liked the idea of using a photo taken from a drone and the idea of felt that an aerial shot of a beach might be a good idea (thinking it might bring out a warm and welcoming feel). 
+I wanted my landing page to be catchy and warm at the same time. I really liked the idea of using a photo taken from a drone and felt that an aerial shot of a beach might be a good fit (thinking it might bring out a warm and welcoming feel). 
 
-I wanted the sections that followed to have a background as well, but emphasise on the content more. To achieve this, I blurred the background images.
+I wanted the sections that followed to have a background as well, but emphasise on the content more. To achieve this, I reduced the opacity of the background images.
 
 ![figma1](reference/figma1.png)
 ![figma2](reference/figma2.png)
@@ -62,7 +62,7 @@ I now know why CSS can be a pain like everyone says it is. Since my knowledge of
 
 Initially, I had gone with a desktop first approach and soon found it very hard to scale down. Once I reverted to a mobile first approach things got much easier, but I still faced a lot of challenges. 
 
-Obviously the biggest challenge was to get everything working properly across all devices and sizes. Also, a major hurdle was that of making a fixed background image working on mobile or tablet. By the time I had figured out what needed to be done, I was far too committed to go back to the drawing board and start over again. This however, is something I am going to work on in the future. So, for now I have had to disable fixed backgrounds touch devices but it works great on desktops and laptops.
+Obviously the biggest challenge was to get everything working properly across all devices and sizes. Also, a major hurdle was that of making a fixed background image working on a mobile or a tablet (basically, anything touch screen). By the time I had figured out what needed to be done, I was far too committed to go back to the drawing board and start over again. This however, is something I am going to work on in the future. So, for now I have had to disable fixed backgrounds on touch devices but it works great on desktops and laptops.
 
 ### Additional skills learned
 
@@ -73,9 +73,9 @@ Through this experience I have also taken interest in learning other tools such 
 
 ### Section 1
 
-This is the landing page and it has a bright blue aerial image and with my name and three key attributes to describe who I am.
+This is the landing page and it has a bright blue aerial image as backgorund with my name and three key attributes to describe who I am.
 
-There is also a cool box animation while hovering over my name.
+There is also a cool box animation effect while hovering over my name.
 
 Links to social media are are in the bottom right and are fixed all through the website.
 
@@ -100,14 +100,14 @@ A gist of my latest work experience as an entrepreneur and links to a two of my 
 
 ### Section 5
 
-A contact form is included using formspree (and some JS to keep bots from accessing my email).
+A contact form is included using formspree (I used some JS here to keep bots from accessing my email).
 
 Js was also included for smooth scroll which is a nice touch.
 
 
-# Other //
+# Other
 
-All meta tags, sitemap and robots.txt file have been included.
+All meta tags, sitemap and robots.txt files have been included.
 
 ### Favicon
 
@@ -123,6 +123,12 @@ All meta tags, sitemap and robots.txt file have been included.
 - Flaticon.com
 - Github
 - Youtube
+- Stack Overflow
+- Google
+- Css-tricks.com
+- realfavicongenerator.net
+- varvy.com/robottxt.html
+- xml-sitemaps.com
 - Google chrome(predominantly) and other browsers to inspect
 - Various phones, tablets and computers
 
@@ -132,12 +138,4 @@ All meta tags, sitemap and robots.txt file have been included.
 2.	Implement scroll snap.
 3.	Add effects when navbar fades in and out.
 
-- Codepen
-- Adobe photoshop
-- Adobe illustrator
-- Flaticon.com
-- Github
-- Youtube
-- Google chrome(predominantly) and other browsers to inspect
-- Various phones, tablets and computers
 

@@ -63,7 +63,7 @@ a, a:hover, a:focus {
   stroke-width: 2px;
   fill: transparent;
   stroke: black;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #050500;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 

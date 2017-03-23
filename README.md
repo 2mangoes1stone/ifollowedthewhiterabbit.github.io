@@ -77,7 +77,7 @@ This is the landing page and it has a bright blue aerial image as backgorund wit
 
 There is also a cool box animation effect while hovering over my name.
 
-Links to social media are are in the bottom right and are fixed all through the website.
+Links to social media are are towards the bottom right and are fixed all through the website.
 
 
 ### Section 2

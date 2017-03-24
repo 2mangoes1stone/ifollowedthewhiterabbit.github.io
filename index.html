@@ -166,10 +166,11 @@
           <p>I can easily be reached for a chat over the phone or even happy to catch up for a coffee(or two).<br><br>Feel free to drop in a message</p> 
 
           <form id="contactform" action="//formspree.io/vigi.natarajan@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Your name">
-            <input type="email" name="_replyto" placeholder="Your email">
-            <textarea name="message" placeholder="Your message"></textarea>
-            <input type="submit" value="Send">
+            <input id="name" type="text" name="name" placeholder="Your name">
+            <input id="email" type="email" name="_replyto" placeholder="Your email">
+            <textarea id="message" placeholder="Your message"></textarea>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input id="send" type="submit" value="Send">
         </form>
 
           <div class="favicon">

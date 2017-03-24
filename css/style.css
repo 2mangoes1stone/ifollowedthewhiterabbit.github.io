@@ -459,6 +459,8 @@ a, a:hover, a:focus {
 }
 
 #name, #email {
+  display: block;
+  margin: auto;
   margin-bottom: 7%;
   font-family: 'Open Sans Condensed', sans-serif;
   border-radius: 0;
@@ -468,6 +470,8 @@ a, a:hover, a:focus {
 }
 
 #message {
+  display: block;
+  margin: auto;  
   margin-bottom: 7%;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 4vh;
@@ -484,6 +488,7 @@ a, a:hover, a:focus {
   border-radius: 0;
   font-size: 2vh;
   text-align: center;
+  width: 10vw;
 }
 
 .favicon {

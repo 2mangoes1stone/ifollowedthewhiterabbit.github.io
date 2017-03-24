@@ -16,7 +16,7 @@ I also wanted to keep my design clean and neat and avoid any clutter of informat
 
 ### Influence
 
-I started off by creating a mood board on Pinterest on designs and images that caught my eye. I really wanted a simple design which would be to look at, and at the same time deliver the message I wanted to get across in an elegant manner.
+I started off by creating a mood board on Pinterest on designs and images that caught my eye. I really wanted a simple design which would good be to look at, and at the same time deliver the message I wanted to get across in an elegant manner.
 It soon became evident to me that I would make a single page website with about 4-5 sections and each section filling an entire viewport with a meaningful background image.
 
 ![pinterest1](reference/pinterest1.png)
@@ -50,7 +50,7 @@ Upon viewing my website, you will see that it slightly varies from the wireframe
 
 ### Language
 
-I had limited knowledge in HTML and CSS and had created a couple web pages in the past using the bootstrap library. But I wanted to use plain vanilla CSS and avoid using any frameworks just so I could get familiar with the basics. I had to use Javascript in a few places but I have kept this to a minimum and mainly concentrated on getting my head around CSS.
+When I started working on this website, I had limited knowledge in HTML and CSS and created a couple of web pages in the past using the bootstrap library. But I wanted to use plain vanilla CSS and avoid using any frameworks just so I could get familiar with the basics. I had to use Javascript in a few places but I have kept this to a minimum and mainly concentrated on getting my head around CSS.
 
 ### Style Guide
 
@@ -96,7 +96,7 @@ At the bottom are links to my projects.
 
 ### Section 4
 
-A gist of my latest work experience as an entrepreneur and links to a two of my most successful start ups.
+A gist of my latest work experience as an entrepreneur and links to two of my most successful start ups.
 
 ### Section 5
 
@@ -125,7 +125,7 @@ All meta tags, sitemap and robots.txt files have been included.
 - Youtube
 - Stack Overflow
 - Google
-- Css-tricks.com
+- css-tricks.com
 - realfavicongenerator.net
 - varvy.com/robottxt.html
 - xml-sitemaps.com

@@ -582,6 +582,12 @@ a, a:hover, a:focus {
     display: none;
   }
 
+  .gitrepolink {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 /*page4*/
   .page4p {
     font-size: 1.5rem;
